@@ -1,5 +1,5 @@
 import argparse
-from langchain_chroma import Chroma
+from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_ollama import OllamaLLM,ChatOllama
 
@@ -51,7 +51,7 @@ def query_rag(query_text: str):
 
     sources = [doc.metadata.get("id", None) for doc, _score in results]
     formatted_response = f"Response: {full_response}\nSources: {sources}"
-    print(formatted_response)
+    # print(formatted_response)
     return formatted_response
 
 

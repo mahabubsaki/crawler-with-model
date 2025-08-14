@@ -8,9 +8,9 @@ from pathlib import Path
 
 websites = [
     {
-        "name": "react-router",
-        "url": "https://reactrouter.com/home/",
-        "root_url": "https://reactrouter.com",
+        "name": "electron",
+        "url": "https://www.electron.build/",
+        "root_url": "https://www.electron.build",
         "priority_keywords": []
     },
    

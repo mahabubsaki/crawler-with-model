@@ -8,7 +8,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema.document import Document
 from get_embedding_function import get_embedding_function
-from langchain_chroma import Chroma
+from langchain.vectorstores.chroma import Chroma
 
 
 CHROMA_PATH = "chroma"
