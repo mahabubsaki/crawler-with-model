@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+backup
+chroma
+datas
+docs
+venv
+.qodo
+__pycache__

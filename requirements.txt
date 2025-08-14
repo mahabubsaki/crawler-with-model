@@ -1,0 +1,7 @@
+langchain
+chromadb 
+pytest
+boto3
+playwright
+
+
