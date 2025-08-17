@@ -6,7 +6,7 @@ uvicorn
 python-dotenv
 
 # AI and LLM services
-groq=
+groq
 
 # YouTube processing
 yt-dlp
