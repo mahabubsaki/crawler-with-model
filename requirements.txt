@@ -1,7 +1,34 @@
+# FastAPI and web server
+fastapi
+uvicorn
+
+# Environment and configuration
+python-dotenv
+
+# AI and LLM services
+groq=
+
+# YouTube processing
+yt-dlp
+youtube-transcript-api
+google-api-python-client
+
+# LangChain ecosystem
 langchain
-chromadb 
-pytest
-boto3
+langchain-community
+langchain-ollama
+langchain-text-splitters
+
+# Vector database
+chromadb
+
+# Web scraping
 playwright
+
+# Document processing
+unstructured
+
+# Testing
+pytest
 
 
